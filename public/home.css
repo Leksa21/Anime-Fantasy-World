@@ -1,0 +1,133 @@
+body {
+    background-image: url(https://i.imgur.com/OGYD8LM.png);
+    background-color: #afafd5;
+    background-blend-mode: hard-light;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+/* SCROLL BAR */
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 1px grey; 
+}
+::-webkit-scrollbar-thumb {
+    background: red; 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+}
+
+
+#nav {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.headerButton {
+    display: inline-block;
+    padding: 20px 10px 10px 10px;
+}
+.headerButton a, .headerButton img, .headerButton i{
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+}
+
+.headerImg {
+    width: 100%;
+    height: 210px;
+    margin-top: 70px;
+}
+
+.dzm {
+    text-align: center;
+}
+.dzm li {
+    display: inline-block;
+}
+
+
+.mejn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.glavno {
+    width: 380px;
+    height: 100px;
+    margin: 0 0 20px 0;
+    background-image: url(https://i.imgur.com/3mY5hLb.png);
+}
+
+.sredina {
+    margin: 0 20px;
+    width: 200px;
+}
+.sredinaGore {
+    display: flex;
+    justify-content: space-evenly;
+}
+.sredinaDole {
+    height: 310px;
+    text-align: center;
+    overflow-y: scroll;
+    margin-right: -10px;
+}
+.sredinaDole p {
+    margin-bottom: 7px;
+    padding: 3px;
+}
+
+.centar {
+    margin: 20px;
+}
+
+.statistika {
+    border-top: 3px solid #fff;
+    display: flex;
+    justify-content: space-evenly;
+}
+.statistikaElement {
+    width: 300px;
+    height: 75px;
+}
+
+.ovdeStefane {
+    display: flex;
+}
+
+.activeUsers, .chatBox {
+    width: 50%;
+    height: 350px;
+    border-top: 3px solid #fff;
+    text-align: center;
+}
+.activeUsers div {
+    padding: 20px;
+}
+.activeUsers h2 {
+    margin-bottom: 20px;
+}
+
+footer {
+    border-top: 3px solid #fff;
+    text-align: center;
+}
+
+footer a{
+    font-size: 20px;
+    margin: 20px;
+}
